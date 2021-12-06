@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+    font-size:110%;
+    background-color:deepskyblue
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  footer {
+    background-color:burlywood
+    text-align: center;
+  }
