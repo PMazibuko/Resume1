@@ -1,14 +1,24 @@
 body{
-    font-family: sans-serif;
+    font-family:'Courier New', Courier, monospace
     font-size:110%;
-    background-color:deepskyblue
+    background-color:yellow;
   }
   
   header {
     text-align: center;
+    background-color: rgb(215, 218, 42);
   }
   
   footer {
     background-color:burlywood
     text-align: center;
   }
+
+  h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color :rgb(64, 120, 224)
+  }
+   section {background-color: rgba(51, 99, 29, 0.473);
+  font-size: medium;
+  }
+  
