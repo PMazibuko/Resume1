@@ -7,10 +7,28 @@ body{
   header {
     text-align: center;
     background-color: rgb(215, 218, 42);
+    border-style: radius;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: rgb(0, 225, 255);
+    border-radius: 10px 20px 30px 40px; 
+    ;
+
+  }
+  #headshot {
+    font-size: 15px;
+    background-color: rgb(111, 197, 31);
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #picture{
+    border-radius: 50%;
   }
   
   footer {
-    background-color:burlywood
+    background-color:rgb(135, 222, 208);
     text-align: center;
   }
 
@@ -20,5 +38,16 @@ body{
   }
    section {background-color: rgba(51, 99, 29, 0.473);
   font-size: medium;
+  border-radius:2mm
   }
-  
+ 
+    
+  #h1 {
+      font-size: 20px;
+      font-style: italic  ;
+      background-color: rgb(188, 216, 32);
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10cm;
+    }
+    
