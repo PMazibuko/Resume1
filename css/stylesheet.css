@@ -1,32 +1,39 @@
 body{
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
     font-size:110%;
-    background-color:yellow;
+    background-color:rgb(153, 144, 141);
   }
   
   header {
     text-align: center;
-    background-color: rgb(215, 218, 42);
+    background-color: rgb(205, 206, 153);
     border-style: radius;
     border-width: 3px;
     border-left-width: 10px;
     border-right-width: 10px;
     border-color: rgb(0, 225, 255);
     border-radius: 10px 20px 30px 40px; 
-    ;
-
   }
+
   #headshot {
     font-size: 15px;
-    background-color: rgb(111, 197, 31);
+    background-color: rgb(135, 222, 208);
     margin: 10px;
     padding: 10px;
   }
 
   #picture{
     border-radius: 50%;
+    padding-left: 20px;
+    border-width: 40px;
+    border-style: double;
   }
-  
+
+  menu{
+    display: flex;
+    border-radius: 200px;
+  }
+ 
   footer {
     background-color:rgb(135, 222, 208);
     text-align: center;
@@ -34,20 +41,34 @@ body{
 
   h3 {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    color :rgb(64, 120, 224)
+    color :rgb(71, 102, 163)
   }
-   section {background-color: rgba(51, 99, 29, 0.473);
+
+   section {background-color: rgba(135, 222, 208);
   font-size: medium;
-  border-radius:2mm
+  border: radius 5mm;
   }
- 
-    
+
   #h1 {
       font-size: 20px;
       font-style: italic  ;
-      background-color: rgb(188, 216, 32);
+      background-color: rgb(153, 144, 141);
       margin: 10px;
       padding: 10px;
       border-radius: 10cm;
+      color:rgb(71, 102, 163)
     }
+
+    #icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    #main{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    
+
     
