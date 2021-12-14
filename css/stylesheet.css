@@ -32,6 +32,7 @@ body{
   menu{
     display: flex;
     border-radius: 200px;
+    color: white
   }
  
   footer {
@@ -68,6 +69,14 @@ body{
       display: flex;
       flex-direction: row;
     }
+    #content {
+      flex:5
+    }
+    #nav{
+      flex:1
+    }
+    
+  
   
     
 
